@@ -19,11 +19,27 @@
 </head>
 <body>
 <br><br><hr><br>
+
+<%
+    if(session.getAttribute("state")!=null && session.getAttribute("state").equals("登录成功")){
+%>
 状态：<%=session.getAttribute("state")%>
 <br>
 欢迎你，用户<%=session.getAttribute("username")%>
 <br>
 <br>
 <a href="logout.jsp">我要登出</a>
+<%
+    }else {
+        session.setAttribute("state",null);
+        %>
+请先进行登录操作
+<br>
+<br>
+<br>
+<a href="login.jsp">点我登录</a>
+<%
+    }
+%>
 </body>
 </html>
