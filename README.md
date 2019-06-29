@@ -7,7 +7,7 @@ Code of web lessons's homework
 
 ## 2. Lesson
 > * **Time**：**2019a**
-> * **Teacher**：**Chen.LV of SDNU**
+> * **Teacher**：**Chen.L of SDNU**
 
 ## 3. Development Environment
 > * **OS**：**Windows 10**
